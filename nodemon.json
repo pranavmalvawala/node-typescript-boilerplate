@@ -1,0 +1,7 @@
+{
+    "exec": "npm run build && npm run start | pino-pretty",
+    "ext": "*",
+    "watch": ["."],
+    "delay": "100",
+    "ignore": ["nodemon.json", "package.json", "dist/"]
+}
